@@ -29,7 +29,7 @@ This exercise will show us how to clone a repository, push a sample application 
 
 1. Use `git` to clone the repository hosting the sample application. Run the following command in your terminal/command prompt (or the Git command line on Windows):
 
-    `git clone https://hub.jazz.net/git/esnible/activedeploy`
+    `git clone https://github.com/ibmecod/cfs-activedeploy.git`
 
     The application is a simple web page that displays the text: "Active Deploy 1 - Hello!!!".
 
@@ -39,7 +39,7 @@ This exercise will show us how to clone a repository, push a sample application 
 
 3. In your terminal/command prompt, change into the directory/folder containing the sample application you cloned in Step 1:
 
-    `cd static-hello`
+    `cd cfs-activedeploy`
 
 4. Use the CloudFoundry command line to publish the sample application to Bluemix. Run the following command in your terminal/command prompt:
 
