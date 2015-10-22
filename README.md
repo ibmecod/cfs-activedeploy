@@ -139,7 +139,7 @@ This lab will show us the customizability of Active Deploy by passing command li
 
 1. Make a change to the `index.html` file in the sample application.
   * Change the text "Active Deploy 2 - Hello!!!" to "Active Deploy 3 - Hello!!!".
-  NOTE : A war file with the changes is already built and published in the repository (ecodcnc-activedeploy-javarest-3.war). Edit and save manifest.yml by replacing "ecodcnc-activedeploy-javarest-2" with "ecodcnc-activedeploy-javarest-3".
+  * NOTE : A war file with the changes is already built and published in the repository (ecodcnc-activedeploy-javarest-3.war). Edit and save manifest.yml by replacing "ecodcnc-activedeploy-javarest-2" with "ecodcnc-activedeploy-javarest-3".
 
 2. Use the CloudFoundry command line to publish the third version of the sample application to Bluemix. Run the following command in your terminal/command prompt:
 
@@ -151,7 +151,7 @@ This lab will show us the customizability of Active Deploy by passing command li
 
     `cf active-deploy-create -h`
 
-    Note how you can assign the deployment a custom label and description, change the verbosity of the command's output, and customize each phase's duration.
+    * Note how you can assign the deployment a custom label and description, change the verbosity of the command's output, and customize each phase's duration.
     A label allows you to refer to the deployment using a name of your choosing.
 
 4. Use the `cf active-deploy-create` command to create a new deployment, with custom options to specify a label and Ramp-up and Test phase durations of 1 minute each.
@@ -202,7 +202,7 @@ This lab explores the manual progression deployment, and how it differs from an 
 
 1. Make a change to the `index.html` file in the sample application.
   * Change the text "Active Deploy 3 - Hello!!!" to "Active Deploy 4 - Hello!!!".
-  NOTE : A war file with the changes is already built and published in the repository (ecodcnc-activedeploy-javarest-4.war). Edit and save manifest.yml by replacing "ecodcnc-activedeploy-javarest-3" with "ecodcnc-activedeploy-javarest-4".
+  * NOTE : A war file with the changes is already built and published in the repository (ecodcnc-activedeploy-javarest-4.war). Edit and save manifest.yml by replacing "ecodcnc-activedeploy-javarest-3" with "ecodcnc-activedeploy-javarest-4".
 
 2. Use the CloudFoundry command line to publish the fourth version of the sample application to Bluemix. Run the following command in your terminal/command prompt:
 
@@ -280,7 +280,7 @@ This lab explores how to roll back a deployment after you have determined there 
 
 1. Make a change to the `index.html` file in the sample application.
   * Change the text "Active Deploy 4 - Hello!!!" to "TYPO in **Active Deploy 5 - Hello!!!".
-  NOTE : A war file with the changes is already built and published in the repository (ecodcnc-activedeploy-javarest-5.war). Edit and save manifest.yml by replacing "ecodcnc-activedeploy-javarest-4" with "ecodcnc-activedeploy-javarest-5".
+  * NOTE : A war file with the changes is already built and published in the repository (ecodcnc-activedeploy-javarest-5.war). Edit and save manifest.yml by replacing "ecodcnc-activedeploy-javarest-4" with "ecodcnc-activedeploy-javarest-5".
 
 2. Use the CloudFoundry command line to publish the fifth version of the sample application to Bluemix. Run the following command in your terminal/command prompt:
 
@@ -292,7 +292,7 @@ This lab explores how to roll back a deployment after you have determined there 
 
     `cf active-deploy-create hello_app_4 hello_app_5 --label rollback_lab --rampup 1m --test 1h`
 
-    Note the longer Test phase duration (`1h`). Active Deploy routes traffic to `hello_app_5` and starts ramping up instances.
+    * Note the longer Test phase duration (`1h`). Active Deploy routes traffic to `hello_app_5` and starts ramping up instances.
 
 4. Verify that Bluemix starts routing traffic to both versions.
 
