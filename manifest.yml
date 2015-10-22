@@ -1,0 +1,5 @@
+applications:
+- path: ecodcnc-activedeploy-javarest-1.war
+  random-route: true
+  name: ecodcnc-activedeploy-javarest-1
+  memory: 256M
